@@ -92,7 +92,7 @@ export default Timetable
 import React, { useState } from "react";
 import "./Timetable.css";
 
-function Timetable({className}) {
+function Timetable() {
   const days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
   const hours = ["9-10", "10-11", "11-12", "12-1", "1-2"];
 
@@ -111,7 +111,7 @@ function Timetable({className}) {
   };
 
   return (
-    <div className={`timetable workspace ${className}`}>
+    <div className={`timetable workspace`}>
       {/* Empty corner cell */}
       <div className="cell header"></div>
 
