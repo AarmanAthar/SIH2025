@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(68, 68, 76);
+}
+
+.main-container {
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+}
+
+/* .side {
+  flex: 1;
+} */

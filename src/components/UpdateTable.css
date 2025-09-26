@@ -1,0 +1,33 @@
+.box {
+  background-color: burlywood;
+  padding: 40px;        /* smaller padding */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;             /* space between items */
+  width: fit-content;   /* shrink to content */
+  height: fit-content;  /* shrink to content */
+  margin-top:20px
+}
+
+button {
+  padding: 6px 12px;    /* natural size, no fixed width */
+  background-color: rgb(250, 241, 232);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input {
+  padding: 4px 8px;
+  font-size: medium;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: rgb(250, 241, 232);
+}
+
+.circle{
+  border-radius: 50%;
+  width:10px;
+  height:20px
+}
